@@ -73,10 +73,6 @@ const feriados = [
 - Navegador web moderno (Chrome, Firefox, Safari, Edge)
 - No se requiere instalación de dependencias adicionales
 
-## Licencia
-
-Este proyecto está disponible bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
-
 ## Autor
 
 - [LautaTuzzio](https://github.com/LautaTuzzio)
