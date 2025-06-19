@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">📅 Calendario Interactivo</h1>
+        <div class="calendar">
+            <div class="calendar__header">
+                <button id="prev-month" class="nav-button">◀</button>
+                <div class="calendar__title">
+                    <span id="month">Junio</span> <span id="year">2025</span>
+                </div>
+                <button id="next-month" class="nav-button">▶</button>
+            </div>
+            <div class="calendar-week">
+                <div class="calendar__day">Lun</div>
+                <div class="calendar__day">Mar</div>
+                <div class="calendar__day">Mié</div>
+                <div class="calendar__day">Jue</div>
+                <div class="calendar__day">Vie</div>
+                <div class="calendar__day">Sáb</div>
+                <div class="calendar__day">Dom</div>
+            </div>
+            <div class="calendar-days" id="calendar-days">
+                <!-- Los días se generarán con JavaScript -->
+            </div>
+        </div>
+        <div class="info-panel">
+            <div class="info-item"><span class="today-marker"></span> Hoy</div>
+            <div class="info-item"><span class="holiday-marker"></span> Feriado</div>
+            <div class="info-item" id="leap-year">
+                Año bisiesto: <span id="leap-year-status">No</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
